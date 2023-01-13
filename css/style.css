@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-image: url(../img//sfondo.jpg);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 80vh;
+}
+
+section{
+    width: 49%;
+    height: 55vh;
+    border: solid black 1px;
+    animation: amg 7s infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@keyframes amg {
+    0%{
+        background-image: url(../img/foto1.webp);
+    }
+    25%{
+        background-image: url(../img/foto2.jpeg);
+    }
+    50%{
+        background-image: url(../img/foto3.webp);
+    }
+    100%{
+        background-image: url(../img/foto4.webp);
+    }
+}
