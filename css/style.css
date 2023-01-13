@@ -28,7 +28,7 @@ section{
     width: 49%;
     height: 55vh;
     border: solid black 1px;
-    animation: amg 7s infinite;
+    animation: amg 10s infinite;
     background-size: contain;
     background-repeat: no-repeat;
 }
