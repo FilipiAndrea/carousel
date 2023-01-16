@@ -28,12 +28,12 @@ section{
     width: 49%;
     height: 55vh;
     border: solid black 1px;
-    animation: amg 10s infinite;
+    animation: amg 20s infinite;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-@keyframes amg {
+/*@keyframes amg {
     0%{
         background-image: url(../img/foto1.webp);
     }
@@ -49,4 +49,54 @@ section{
     100%{
         background-image: url(../img/foto5.webp);
     }
+}*/
+
+@keyframes amg{
+    
+    0%{
+        background-image: url(../img/foto1.webp);
+    }
+    5%{
+        opacity: 0.1;
+    }
+    10%{
+        opacity: 1;
+    }
+    15%{
+        background-image: url(../img/foto2.jpeg);
+    }
+    20%{
+        opacity: 0.1;
+    }
+    25%{
+        opacity: 1;
+    }
+    30%{
+        background-image: url(../img/foto3.webp);
+    }
+    35%{
+        opacity: 0.1;
+    }
+    40%{
+        opacity: 1;
+    }
+    45%{
+        background-image: url(../img/foto4.webp);
+    }
+    50%{
+        opacity: 0.1;
+    }
+    55%{
+        opacity: 1;
+    }
+    60%{
+        background-image: url(../img/foto5.webp);
+    }
+    65%{
+        opacity: 0.1;
+    }
+    60%{
+        opacity: 1;
+    }
+    
 }
